@@ -13,15 +13,20 @@ export default{
             }
         }
     },
-    mutation:{
-
-    },
-    action:{
-        async setVip({ commit }, isVIP) {
-            commit('SET_VIP', isVIP)
+    mutations:{
+        SET_NAME: (state, name) => {
+            state.name = name
         },
-        async setBusters({ commit }, val) {
-            commit('SET_BUSTERS', val)
+        SET_AGE: (state, age) => {
+            state.age = age
+        },
+    },
+    actions:{
+        async setName({ commit }, name) {
+            commit('SET_VIP', name)
+        },
+        async setAge({ commit }, age) {
+            commit('SET_AGE', age)
         },
     }
 }

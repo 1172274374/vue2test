@@ -1,0 +1,32 @@
+git命令：
+
+ls：获取当前文件夹所有文件（单）
+touch：新建一个文件
+diff [origin]：比较当前分支和origin分支
+rm：删除一个文件
+mkdir：新建一个文件夹
+history：历史命令（单）
+clear：清理（单）
+config --global --list ：获得git的配置设施
+config --global user.name 'ranhsizhang'：设置名称
+config --global user.email '1172274374@qq.com'：设置邮箱
+add files：添加文件
+commit files -m ‘注释内容’：提交文件
+push files：提交文件
+pull files：拉取文件
+reset files：同步文件
+checkout files：检查
+status：查看当前文件夹的状态
+ssh-keygen -t rsa：生成ssh秘钥
+branch：列出分支
+branch [branch]：创建分支
+switch：切换分支
+merge [branch]：合并分支到本分支
+branch -d [branch]: 删除分支
+remote add origin 远程地址：设置远程仓库地址
+push -u origin master：第一次推送 
+remote -v：查看远程origin
+remote add origin [origin]：添加origin
+remote rm [origin]:删除远程origin
+pull --rebase origin master: 拉去仓库master和本地仓库合并
+fetch [origin] master: [test] ：拉去远程仓库master到test分支
